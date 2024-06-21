@@ -24,7 +24,7 @@ int main() {
     };
 
     for (int i = 0; i < 16; ++i) {
-        draw(mario[i], "x");
+        draw(mario[i], "■");
     }
 
     return EXIT_SUCCESS;
